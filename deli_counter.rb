@@ -5,8 +5,7 @@ def line(names)
     puts "The line is currently empty."
   else 
     new_line = []
-    names.each_with_index do 
-    
-    "The line is currently: #{katz_deli.length}. #{names}."
+    names.each_with_index do |index, name|
+      puts "The line is currently: #{index + 1}. #{name}."
   end
 end
