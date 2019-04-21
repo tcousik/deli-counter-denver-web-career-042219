@@ -8,4 +8,5 @@ def line(names)
     names.each_with_index do |index, name|
     new_line << " #{index + 1}. #{name}."
   end
+  puts new_line
 end
