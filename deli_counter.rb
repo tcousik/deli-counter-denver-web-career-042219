@@ -15,3 +15,5 @@ def take_a_number(array, name)
   length = array.length
   puts "Welcome, #{name}. You are number #{length} in line."
 end
+
+def now_serving()
