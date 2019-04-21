@@ -9,3 +9,5 @@ def line(names)
   puts new_line
   end
 end
+
+def take_a_number
