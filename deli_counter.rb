@@ -13,4 +13,4 @@ end
 def take_a_number(array, name)
   array << name
   length = array.length
-  puts 
+  puts "Welcome"
