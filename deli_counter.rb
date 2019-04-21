@@ -6,6 +6,6 @@ def line(names)
   else 
     new_line = []
     names.each_with_index do |index, name|
-      puts "The line is currently: #{index + 1}. #{name}."
+    new_line << "The line is currently: #{index + 1}. #{name}."
   end
 end
