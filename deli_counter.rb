@@ -11,8 +11,5 @@ def line(names)
 end
 
 def take_a_number(array, name)
-  if array.length == 0
-    puts "The line is empty."
-  else 
-    array << name
+  array << name
 end
