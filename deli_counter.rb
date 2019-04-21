@@ -5,7 +5,7 @@ def line(names)
     puts "The line is currently empty."
   else 
     new_line = []
-    
+    names
     
     "The line is currently: #{katz_deli.length}. #{names}."
   end
