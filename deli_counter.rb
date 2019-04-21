@@ -7,4 +7,5 @@ def line(names)
     new_line <<  "#{index + 1}. #{name}."
   end
   puts new_line
+  end
 end
