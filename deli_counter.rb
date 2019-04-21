@@ -4,7 +4,7 @@ def line(names)
   if names.length == 0
     puts "The line is currently empty."
   else 
-    new_line = []
+    new_line = "The line is currently: "
     names.each_with_index do |index, name|
     new_line << "The line is currently: #{index + 1}. #{name}."
   end
